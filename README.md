@@ -3,7 +3,18 @@
 An AI sales and support assistant that answers client questions about Zalvantic, with sources, in English and Roman Urdu.
 
 Built as part of the Zalvantic Internship Programme (AI / ML Engineering).
+## Where the project is
 
+| Week | What gets built | Finish by | Status |
+|---|---|---|---|
+| 1 | Collect and structure what Zalvantic knows about itself | 08/11/2026 | Done |
+| 2 | Split the knowledge into chunks and search it with BM25 | 15/11/2026 | Done |
+| 3 | Search by meaning, not only keywords | 22/11/2026 | Not started |
+| 4 | Combine keyword and vector search and pick a winner | 29/11/2026 | Not started |
+| 5 | Generate answers that stay inside the sources | 06/12/2026 | Not started |
+| 6 | Make failure safe | 13/12/2026 | Not started |
+| 7 | Turn the pipeline into a service | 20/12/2026 | Not started |
+| 8 | Make it deployable by someone else | 27/12/2026 | Not started |
 ## Status
 Week 1 done: knowledge base, evaluation questions and a simple command-line search.
 

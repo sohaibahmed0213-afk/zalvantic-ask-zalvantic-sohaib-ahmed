@@ -44,7 +44,8 @@ def chunk_by_heading(source, text):
 
 def chunk_fixed(source, text, size=CHUNK_WORDS, overlap=OVERLAP_WORDS):
     """Strategy 2: fixed-size word windows that overlap a little."""
-    title = split_by_heading(text)[0][0] or split_by_heading(text)[1][0]
+    sections = split_by_heading(text)
+    title = next((heading for heading, _body in sections if heading), "")
     words = text.split()
     chunks = []
     start = 0
